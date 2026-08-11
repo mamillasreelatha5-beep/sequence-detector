@@ -1,0 +1,14 @@
+
+The testbench sends:
+
+1011
+
+The detector processes it one bit at a time:
+
+Clock	Input	   State	        Detected
+1	     1	        S1	              0
+2	     0	        S2	              0
+3	     1	        S3	              0
+4	     1	        S1	              1
+
+So when the final 1 arrives:
